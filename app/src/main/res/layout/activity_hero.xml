@@ -14,6 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:transitionName="profile"
         tools:srcCompat="@drawable/ahmad_dahlan" />
 
     <TextView
@@ -27,6 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profileImageView"
+        android:transitionName="name"
         tools:text="@string/heroes_name" />
 
     <TextView
@@ -42,5 +44,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+        android:transitionName="description"
         tools:text="@string/description" />
 </androidx.constraintlayout.widget.ConstraintLayout>
